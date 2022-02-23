@@ -8,6 +8,12 @@
         flex-direction:column;
     }
 
+    p{
+        text-align: left;
+        margin: auto;
+        flex-direction:column;
+    }
+
     h2{
         font-size: 38px;
     }
@@ -31,15 +37,7 @@
     }
 
     #inscreva-se-btn{
-        border: 2px solid rgb(132, 14, 201);
-        padding: 10px;
-        border-radius: 15px;
         text-align: center;
-    }
-
-    p{
-        flex-direction:column;
-        align-self: center;
     }
 
 }

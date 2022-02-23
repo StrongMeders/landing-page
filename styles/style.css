@@ -3,8 +3,8 @@ body{
     color: white;
     font-family: poppinsregular;
     max-width: 1200px;
-    margin: 0 auto;
     padding: 10px;
+    margin: 0px 50px auto;
 }
 
 head{
@@ -17,6 +17,7 @@ head{
 #title{
     flex-direction: column;
     line-height: 10px;
+    margin: 40px 0px 0px 0px;
 }
 
 li{
@@ -74,10 +75,16 @@ img{
     width: 580px;
 }
 
+ul{
+    text-align: right;
+    margin-right: 10px;
+    margin-top: -62px;
+}
+
 form{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 80%;
 }
 
 form [type="submit"]{
@@ -94,7 +101,7 @@ form [type="submit"]:hover{
 
 
 input{
-    margin: 20px;
+    margin: 10px;
     height: 20px;
     padding: 15px;
     border-radius: 20px;
