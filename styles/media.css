@@ -1,0 +1,45 @@
+@media screen and (max-width: 1020px){
+
+    header{
+        flex-direction:column;
+    }
+
+    main{
+        flex-direction:column;
+    }
+
+    h2{
+        font-size: 38px;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    input{
+        align-self: center;
+    } 
+
+    img{
+        display: none;
+    }
+
+    ul{
+        text-align: center;
+        margin-right: 50px;
+    }
+
+    #inscreva-se-btn{
+        border: 2px solid rgb(132, 14, 201);
+        padding: 10px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    p{
+        flex-direction:column;
+        align-self: center;
+    }
+
+}
